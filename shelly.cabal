@@ -39,18 +39,18 @@ Library
 
   Build-depends:
     containers                >= 0.5.0.0,
-    time                      >= 1.3 && < 1.5,
     directory                 >= 1.1.0.0 && < 1.3.0.0,
+    enclosed-exceptions       >= 1.0.0.1 && < 1.1,
+    exceptions                >= 0.5 && < 0.6,
+    lifted-async              >= 0.1.2 && < 0.2,
+    lifted-base               >= 0.2.2.1 && < 0.3,
+    monad-control             >= 0.3.2 && < 0.4,
     mtl                       >= 2,
     process                   >= 1.0,
-    unix-compat               < 0.5,
-    system-filepath           >= 0.4.7 && < 0.5,
     system-fileio             < 0.4,
-    monad-control             >= 0.3.2 && < 0.4,
-    lifted-base,
-    lifted-async,
-    exceptions,
-    enclosed-exceptions,
+    system-filepath           >= 0.4.7 && < 0.5,
+    time                      >= 1.3 && < 1.5,
+    unix-compat               < 0.5,
     text, bytestring, async, transformers, transformers-base
 
   if impl(ghc >= 7.6.1)
